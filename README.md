@@ -134,4 +134,4 @@ Windows 설정 › 앱에서 RustPail을 제거합니다. 앱 데이터(대화, 
 
 ## 라이선스와 고지
 
-RustPail은 [Herdr](https://github.com/herdrdev/herdr)(Apache License 2.0)의 터미널 런타임을 바탕으로 만든 프로그램이며 Apache License 2.0을 따릅니다. 사용 조건은 [LICENSE](LICENSE)에, 함께 들어 있는 서드파티 구성 요소의 목록과 각자의 라이선스는 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)에 있습니다. 서드파티 구성 요소는 각자의 라이선스를 따릅니다.
+사용 조건은 [LICENSE](LICENSE)에, 함께 들어 있는 서드파티 구성 요소의 목록과 각자의 라이선스는 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)에 있습니다. 서드파티 구성 요소는 각자의 라이선스를 따릅니다.
