@@ -1,15 +1,47 @@
 RustPail license notice
 =======================
 
-RustPail is a modified version of Herdr (https://github.com/herdrdev/herdr),
-which is licensed under the Apache License, Version 2.0. The complete Apache
-License 2.0 text follows below. It applies to the RustPail program that is
-distributed through the releases of this repository: the code inherited from
-Herdr, the changes made to it, and the code RustPail added. Herdr's copyright
-and license notices in inherited files are kept as they are.
+(Note for the owner: have a lawyer confirm this wording before relying on it;
+it is a plain-language split of the licensing, not legal advice.)
 
-This repository contains the user documentation and the release files only.
-It does not contain the source code.
+This repository publishes only the RustPail binaries and documentation. The
+source code is not published here. The files below are under two different
+licenses. Read both parts.
+
+PART 1 - RustPail application and original code: proprietary, all rights reserved
+---------------------------------------------------------------------------------
+
+Copyright (c) 2026 BlackBuddle. All rights reserved.
+
+This part covers the RustPail desktop app, the remote-control components, and
+all other code and documentation that RustPail authored itself, in every
+binary and file distributed through this repository, except the Herdr-derived
+code and the third-party components named in Parts 2 and 3.
+
+This code is not open source. Unless you have the written permission of
+BlackBuddle, you may not copy, modify, merge, translate, reverse-engineer,
+decompile, disassemble, sublicense, sell, or redistribute it or any part of
+it, in source or binary form. The compiled RustPail application is provided
+only for personal use, through the official releases of this repository.
+No license to this code is granted by implication or estoppel. Mandatory
+rights under applicable law (for example the limited decompilation right
+some jurisdictions give for interoperability) are not restricted by this
+notice.
+
+PART 2 - Code inherited from Herdr: Apache License 2.0
+------------------------------------------------------
+
+RustPail is built on Herdr (https://github.com/herdrdev/herdr), which is
+licensed under the Apache License, Version 2.0. The code RustPail inherits
+from Herdr (its terminal runtime and related components) and RustPail's
+modifications to that inherited code remain licensed under the Apache
+License, Version 2.0, whose complete text follows below. Herdr's copyright
+and license notices are kept as they are. The Apache License 2.0 applies to
+that Herdr-derived code only; it does not grant rights to the code in Part 1.
+You may obtain Herdr's source from the Herdr project at the address above.
+
+PART 3 - Third-party components
+-------------------------------
 
 Third-party components keep their own licenses and are not relicensed by this
 file:
@@ -17,8 +49,12 @@ file:
   - libghostty-vt: MIT, Copyright (c) 2024 Mitchell Hashimoto, Ghostty
     contributors
   - portable-pty: MIT, Copyright (c) 2018 Wez Furlong
-  - Cargo, npm and Zig dependencies: each under its own license, collected in
-    THIRD_PARTY_NOTICES.md.
+  - Cargo, npm and Zig dependencies: each under its own license, listed in
+    THIRD_PARTY_NOTICES.md, which ships next to this file.
+
+Nothing in Part 1 claims rights over Herdr code or third-party code, and
+Part 1 does not restrict anything the Apache License 2.0 or a third-party
+license gives you for that code.
 
 ----------------------------------------------------------------------------
 
