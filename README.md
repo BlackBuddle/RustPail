@@ -1,5 +1,7 @@
 # RustPail
 
+![RustPail](assets/hero.png)
+
 **여러 AI 모델과 코딩 에이전트를 한 대화방에 모아 함께 일을 시키는 Windows 데스크톱 앱입니다.**
 
 Codex, Claude Code, Cursor, Grok 같은 AI 코딩 CLI와 Claude, OpenAI, Gemini, xAI 같은 API 모델, 내 PC의 Ollama를 앱 하나에서 씁니다. 프로젝트 폴더를 열고 대화로 일을 맡기면, 에이전트가 파일을 고치거나 명령을 실행하기 전에 RustPail이 먼저 묻습니다. 바뀐 파일은 diff로 확인하고 마음에 들지 않으면 되돌립니다.
